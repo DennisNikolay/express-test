@@ -1,0 +1,38 @@
+{
+  "name": "test-server",
+  "version": "0.0.1",
+  "description": "testing express backend",
+  "main": "./dist/startServer.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/startServer.js",
+    "test": "jest"
+  },
+  "author": "Dennis Nikolay",
+  "license": "ISC",
+  "dependencies": {
+    "@types/async": "^3.0.3",
+    "@types/randomstring": "^1.1.6",
+    "async": "^3.1.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.16.2",
+    "pg": "^7.14.0",
+    "randomstring": "^1.1.5",
+    "sequelize": "^5.21.2",
+    "sequelize-typescript": "^1.0.0",
+    "typedi": "^0.8.0",
+  },
+  "devDependencies": {
+    "@types/express": "^4.11.1",
+    "@types/jest": "^24.0.23",
+    "@types/sequelize": "^4.28.8",
+    "awesome-typescript-loader": "^3.4.1",
+    "jest": "^24.9.0",
+    "reflect-metadata": "^0.1.13",
+    "sequelize-cli": "^5.5.1",
+    "source-map-loader": "^0.2.3",
+    "ts-jest": "^24.2.0",
+    "typescript": "^2.7.2",
+    "webpack": "^3.11.0"
+  }
+}

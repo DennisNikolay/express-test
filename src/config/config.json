@@ -1,0 +1,23 @@
+{
+    "development": {
+      "username": "root",
+      "password": "root",
+      "database": "wip30",
+      "host": "localhost",
+      "port": 42016,
+      "dialect": "postgres",
+      "operatorsAliases": false
+    },
+    "test": {
+      "username": "root",
+      "password": "root",
+      "database": "wip30_test",
+      "host": "localhost",
+      "port": 42016,
+      "dialect": "postgres",
+      "operatorsAliases": false,
+      "define": {
+        "freezeTableName": true
+      }
+    }
+  }
